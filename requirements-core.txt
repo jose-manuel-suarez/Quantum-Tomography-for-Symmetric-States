@@ -1,0 +1,6 @@
+# Core requirements (minimal set used by the modular pipeline and tests)
+numpy
+scipy
+matplotlib
+pandas
+python-dotenv

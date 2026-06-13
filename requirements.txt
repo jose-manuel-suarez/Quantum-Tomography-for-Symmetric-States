@@ -1,0 +1,12 @@
+# Core
+numpy
+scipy
+matplotlib
+pandas
+python-dotenv
+
+# Optional / legacy (used by original scripts)
+qutip
+cvxpy
+cvxopt
+amazon-braket-sdk

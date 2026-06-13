@@ -378,7 +378,7 @@ for x in range(len(noise_types)):
     f.write(' '+'\r\n')
     f.write('Noise type = ' + str(noise_type)+'\r\n')
     f.write(' '+'\r\n')
-    f.write('Noise levels used: ' +'\r\n')
+    f.write('Noise levels used: ' +"\r\n")
     for key in noise_dic:
         f.write(str(key)+(': '))
         for level in noise_level:
@@ -407,4 +407,3 @@ for x in range(len(noise_types)):
     print('Processing time=', t-ti)
     print(' ')
 print('Measurements are completed =)')
-

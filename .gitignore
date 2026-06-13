@@ -1,0 +1,51 @@
+# .gitignore - ignore virtualenv, env files and generated folders
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# dotenv and local env files
+.env
+.env.*
+
+# Project generated data
+Measurements/
+Results/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editor/project files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and misc
+*.log
+*.tmp
+*.swp
+pip-log.txt
+pip-delete-this-directory.txt

@@ -394,7 +394,7 @@ for x in range(len(noise_types)):
     doc.write(' '+'\r\n')
     doc.write('Noise type = ' + str(noise_type)+'\r\n')
     doc.write(' '+'\r\n')
-    doc.write('Noise levels used: ' +'\r\n')
+    doc.write('Noise levels used: ' +"\r\n")
     for key in noise_dic:
         doc.write(str(key)+(': '))
         for level in noise_level:
